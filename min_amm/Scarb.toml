@@ -1,6 +1,11 @@
 [package]
-name = "min_amm"
+name = "mon_swap"
 version = "0.1.0"
+edition = "2024_07"
 
 [dependencies]
-starknet = ">=1.0.0"
+starknet = ">=2.6.0"
+
+[[target.starknet-contract]]
+sierra = true
+casm = true
